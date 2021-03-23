@@ -1,0 +1,44 @@
+@import "colors", "mixins";
+
+.upper-block {
+    @include upper_block;
+};
+
+.cancelbtn {
+    @include cancelbtn;
+};
+
+input[type=text] {
+    @include border(2px);
+    width: 70%;
+    padding: 12px 20px;
+    margin: 1% 0%;
+    margin-left: 5%;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+
+  .container {
+    @include border(4px);
+    background: rgb(212, 197, 153); 
+    padding: 20px; 
+    margin-top: 2%; 
+    padding: 16px;
+  }
+
+  label {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  button {
+    @include border(2px);
+    background-color: $button_color_2;
+    color: white;
+    padding: 14px 20px;
+    margin: 5% 30%;
+    cursor: pointer;
+    width: 40%;
+  }
+
+  @include hover;

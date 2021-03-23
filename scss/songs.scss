@@ -1,0 +1,38 @@
+@import "colors",  "mixins";
+
+$size: 600px;
+
+  .context {
+    height: $size;
+    width: 100%;
+    background-color: $background_color_1;
+  }
+
+  input {
+    @include border(2px);
+    width: 60%;
+    padding: 12px 20px;
+    margin: 1% 0%;
+    margin-left: 1%;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+
+  .song {
+   @include song(40px, 35px, 3%, 40%);
+  }
+
+  .upper-block {
+    @include upper_block;
+
+    .button{
+      @include button_right($button_color_3);
+    }
+    
+    .cancelbtn {
+       @include cancelbtn;
+      }
+    @include hover;
+
+    
+}

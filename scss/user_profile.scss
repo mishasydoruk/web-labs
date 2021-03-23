@@ -1,0 +1,55 @@
+@import "colors", "mixins";
+
+
+.upper-block {
+    @include upper-block;
+};
+
+.cancelbtn {
+        @include cancelbtn;
+};
+
+.button-right {
+    @include button-right($button-color-3)
+}
+@include hover;
+
+.container {
+    @include hover;
+    margin-top: 5%;
+    @include border(4px);
+    height: 400px;
+    width: 70%;
+    float: right;
+    background-color: $background-color-3;
+
+
+    div {
+        width: 70%;
+        float: right;
+    }
+    .text {
+        float: left;
+        width: 100%;
+        margin-left: 50%;
+        margin-bottom: 5%;
+        font-size: 30px;
+    };
+
+    button {
+        color: white;
+        margin-top: 1%;
+        margin-left: 1%;
+    };
+
+    @include hover;
+    
+
+    .created {
+        width: auto;
+        margin-top: 10%;
+        margin-bottom: 0%;
+        margin-right: 15%;
+        font-size: 28px;
+    };
+}

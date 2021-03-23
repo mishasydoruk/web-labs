@@ -1,0 +1,50 @@
+@import "mixins", "colors";
+
+form {
+    border: 3px solid white;
+  }
+  
+  label {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 1% 0%;
+    margin-left: 5%;
+    display: inline-block;
+    border: 1px solid white;
+    box-sizing: border-box;
+  }
+  
+  
+  button {
+    background-color: $button_color_2;
+    color: white;
+    padding: 14px 20px;
+    margin: 5% 30%;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+  }
+  
+
+  @include hover;
+  .upper-block {
+    @include upper-block;
+    
+    .cancelbtn {
+        @include cancelbtn;
+      };
+
+    
+};
+  
+  .container {
+    background: $background_color_4;
+    padding: 20px; 
+    margin-top: 2%; 
+    padding: 16px;
+  }

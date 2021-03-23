@@ -1,0 +1,78 @@
+@import "colors", "mixins";
+
+$size: 600px;
+
+
+.site-name {
+  @include text_style(black, 30px);
+  float: left;
+  margin-bottom: 0px;
+}
+
+  .context {
+    height: $size;
+    width: 100%;
+
+    
+    .left-block {
+      @include block($background_color_3, $size);
+      @include hover;
+      border-top: none;
+      float: left;
+      background-color: $background_color_3;
+      height: 100%;
+      width: 20%;
+
+      .panel-button {
+        @include border(7px);
+        background-color: $button_color_4;
+        float: left;
+        margin-bottom: 5%;
+        margin-right: 100%;
+        width: 100%;
+        height: 140px;
+        font-size: 40px;
+        color: white;
+        border-radius: 15px;
+        
+      }
+      @include hover;
+
+
+    }
+  
+    .right-block {
+      @include block($background_color_2, $size);
+      background-color: $background_color_2;
+      width: 100%;
+      
+
+      .playlist-button {
+        @include playlist_button(15%);
+      }
+      @include hover;
+    }
+
+  }
+
+  .upper-block {
+    @include upper_block;
+   
+
+
+    .button{
+      @include button_right($button_color_3);
+
+    }
+    .login-button {
+      @include button_right($button_color_2)
+    }
+    @include hover;
+  
+}
+
+
+
+
+
+

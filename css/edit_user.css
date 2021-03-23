@@ -1,0 +1,79 @@
+form {
+  border: 3px solid white;
+}
+
+label {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+input[type=text] {
+  border: 2px solid #3f3838;
+  width: 70%;
+  padding: 12px 20px;
+  margin: 1% 0%;
+  margin-left: 5%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.upper-block {
+  background: #c7dff5;
+  height: 45px;
+  padding: 20px;
+  margin-bottom: -1px;
+  border: 2px solid #3f3838;
+  margin-right: -3%;
+}
+.upper-block .cancelbtn {
+  color: white;
+  border-radius: 4px;
+  border: 2px solid #3f3838;
+  float: left;
+  margin: 0% 0%;
+  width: auto;
+  padding: 10px 18px;
+  background-color: #e95d5d;
+}
+.upper-block :hover {
+  color: black;
+}
+
+.context {
+  border: 2px solid #3f3838;
+  border-radius: 10px;
+}
+.context button {
+  border: 1px solid #3f3838;
+  margin-left: 3%;
+  background-color: #e95d5d;
+  width: 5%;
+  height: 30px;
+  border-radius: 15px;
+  color: white;
+}
+.context :hover {
+  color: black;
+}
+
+.container {
+  background: #d4c599;
+  padding: 20px;
+  margin-top: 2%;
+  padding: 16px;
+}
+
+.save-changes-button {
+  border: 2px solid #3f3838;
+  margin-left: 30%;
+  width: 40%;
+  background-color: #4ada4a;
+  height: 50px;
+  border-radius: 20px;
+  margin-top: 2%;
+  color: white;
+}
+
+:hover {
+  color: black;
+}

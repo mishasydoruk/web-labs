@@ -1,0 +1,68 @@
+@import "mixins", "colors";
+
+form {
+    border: 3px solid white;
+  }
+  
+  label {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  input[type=text] {
+    @include border(2px);
+    width: 70%;
+    padding: 12px 20px;
+    margin: 1% 0%;
+    margin-left: 5%;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  
+  .upper-block {
+    @include upper_block;
+
+    .cancelbtn {
+        @include cancelbtn;
+      };
+
+      :hover {
+       color: black;
+      };
+
+    };
+
+    .context{
+        @include border(2px);
+        border-radius: 10px;
+
+        button{
+            @include border(1px);
+            margin-left: 3%;
+            background-color: $button_color_1;
+            width: 5%;
+            height: 30px;
+            border-radius: 15px;
+            color: white;
+        }
+         @include hover;
+    }
+  
+  .container {
+    
+    background: $background_color_4; 
+    padding: 20px; 
+    margin-top: 2%; 
+    padding: 16px;
+  };
+
+  .save-changes-button {
+      @include border(2px);
+      margin-left: 30%;
+      width: 40%;
+      background-color: $button_color_2;
+      height: 50px;
+      border-radius: 20px;
+      margin-top: 2%;
+      color: white;
+  };
+   @include hover;
