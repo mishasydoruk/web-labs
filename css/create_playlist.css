@@ -36,8 +36,9 @@ button {
   width: 40%;
 }
 
-:hover {
+button:hover {
   color: black;
+  transform: scale(0.95);
 }
 
 .cancelbtn {

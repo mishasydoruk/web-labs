@@ -20,8 +20,9 @@
   height: 100%;
   width: 20%;
 }
-.context .left-block :hover {
+.context .left-block button:hover {
   color: black;
+  transform: scale(0.95);
 }
 .context .left-block .panel-button {
   border: 7px solid #3f3838;
@@ -35,8 +36,9 @@
   color: white;
   border-radius: 15px;
 }
-.context .left-block :hover {
+.context .left-block button:hover {
   color: black;
+  transform: scale(0.95);
 }
 .context .right-block {
   background: #ece7e7;
@@ -56,8 +58,9 @@
   margin-left: 1%;
   color: white;
 }
-.context .right-block :hover {
+.context .right-block button:hover {
   color: black;
+  transform: scale(0.95);
 }
 
 .upper-block {
@@ -72,7 +75,7 @@
   background-color: #3d58cf;
   color: white;
   padding: 1% 1%;
-  margin-left: 1%;
+  margin-left: 2%;
   border: none;
   width: 10%;
   float: right;
@@ -82,12 +85,13 @@
   background-color: #4ada4a;
   color: white;
   padding: 1% 1%;
-  margin-left: 1%;
+  margin-left: 2%;
   border: none;
   width: 10%;
   float: right;
   font-size: 11pt;
 }
-.upper-block :hover {
+.upper-block button:hover {
   color: black;
+  transform: scale(0.95);
 }

@@ -42,8 +42,9 @@ button {
   background-color: #e95d5d;
 }
 
-:hover {
+button:hover {
   color: black;
+  transform: scale(0.95);
 }
 
 .container {

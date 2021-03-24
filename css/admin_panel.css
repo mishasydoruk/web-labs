@@ -88,6 +88,7 @@ h2 {
   font-size: 20px;
 }
 
-:hover {
+button:hover {
   color: black;
+  transform: scale(0.95);
 }

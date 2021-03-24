@@ -52,8 +52,9 @@ input[type=text] {
   border-radius: 15px;
   color: white;
 }
-.context :hover {
+.context button:hover {
   color: black;
+  transform: scale(0.95);
 }
 
 .container {
@@ -74,6 +75,7 @@ input[type=text] {
   color: white;
 }
 
-:hover {
+button:hover {
   color: black;
+  transform: scale(0.95);
 }

@@ -22,15 +22,16 @@
   background-color: #3d58cf;
   color: white;
   padding: 1% 1%;
-  margin-left: 1%;
+  margin-left: 2%;
   border: none;
   width: 10%;
   float: right;
   font-size: 11pt;
 }
 
-:hover {
+button:hover {
   color: black;
+  transform: scale(0.95);
 }
 
 .container {
@@ -41,8 +42,9 @@
   float: right;
   background-color: #95d3ad;
 }
-.container :hover {
+.container button:hover {
   color: black;
+  transform: scale(0.95);
 }
 .container div {
   width: 70%;
@@ -60,8 +62,9 @@
   margin-top: 1%;
   margin-left: 1%;
 }
-.container :hover {
+.container button:hover {
   color: black;
+  transform: scale(0.95);
 }
 .container .created {
   width: auto;
