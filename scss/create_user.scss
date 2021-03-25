@@ -51,14 +51,16 @@ form {
 };
   
   .container {
-    padding: 20px; 
-    margin-top: 10vh; 
-    margin-left: 5vw;
-    padding: 16px;
-    height: auto;
-    flex-grow: 10;
-
-    label {
+    @include border(3px);
+    label{
       color: white;
     }
+    border-radius: 40px;
+    margin-left: 15%;
+
+    width: 70%;
+    height: 100%;
+    padding: 10px; 
+    margin-top: 20vh; 
+    padding: 16px;
   }

@@ -68,12 +68,14 @@ button:hover {
 }
 
 .container {
-  padding: 20px;
-  margin-top: 10vh;
-  margin-left: 5vw;
+  border: 3px solid #3f3838;
+  border-radius: 40px;
+  margin-left: 15%;
+  width: 70%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 20vh;
   padding: 16px;
-  height: auto;
-  flex-grow: 10;
 }
 .container label {
   color: white;

@@ -2,6 +2,8 @@ body {
   background: url(../images/tec.jpg) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
+  height: 100%;
 }
 
 label {
@@ -63,9 +65,13 @@ button:hover {
 }
 
 .container {
-  height: 100vh;
+  border: 3px solid #3f3838;
+  border-radius: 40px;
+  margin-left: 15%;
+  width: 70%;
+  height: 100%;
   padding: 20px;
-  margin-top: 25vh;
+  margin-top: 20vh;
   padding: 16px;
 }
 .container label {

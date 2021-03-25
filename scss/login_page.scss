@@ -4,6 +4,8 @@ body{
   background: url(../images/tec.jpg) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
+  height: 100%;
 }
 
   label {
@@ -43,13 +45,18 @@ body{
   @include hover;
   
   .container {
-    height: 100vh;
-    padding: 20px; 
-    margin-top: 25vh; 
-    padding: 16px;
-    label {
+    @include border(3px);
+    label{
       color: white;
     }
+    border-radius: 40px;
+    margin-left: 15%;
+
+    width: 70%;
+    height: 100%;
+    padding: 20px; 
+    margin-top: 20vh; 
+    padding: 16px;
   }
   
   .psw {
