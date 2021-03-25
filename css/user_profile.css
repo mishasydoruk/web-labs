@@ -63,12 +63,12 @@ button:hover {
   color: #d2e430;
   transform: scale(0.95);
 }
-.container h3 {
+.container h2 {
   margin-left: 10%;
   color: white;
   margin-top: 1%;
 }
-.container h4 {
+.container h3 {
   margin-left: 40%;
   color: white;
 }
