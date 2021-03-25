@@ -36,6 +36,10 @@ body {
   float: right;
   font-size: 70%;
 }
+.upper-block button:hover {
+  color: #d2e430;
+  transform: scale(0.95);
+}
 
 .context {
   height: 100vh;

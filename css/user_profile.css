@@ -66,9 +66,9 @@ button:hover {
 .container .text {
   float: left;
   width: 100%;
-  margin-left: 50%;
+  margin-left: 40%;
   margin-top: 5vh;
-  font-size: 150%;
+  font-size: 100%;
   color: white;
 }
 .container button {
