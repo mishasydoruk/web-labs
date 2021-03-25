@@ -139,7 +139,7 @@ body{
   .context{
 
   .left-block {
-    @include block($background_color_3, $size);
+    @include block(none, $size);
     @include hover;
     @include border(3px);
     border-top: none;

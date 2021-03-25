@@ -163,7 +163,7 @@ body {
   }
 
   .context .left-block {
-    background: #95d3ad;
+    background: none;
     height: 600px;
     padding: 20px;
     margin-bottom: -1px;
