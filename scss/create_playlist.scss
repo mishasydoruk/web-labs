@@ -6,6 +6,22 @@ body{
   background: url(../images/tec.jpg) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.upper-block{
+  @include upper_block;
+  border: none;
+  margin-top: 10vh;
+  background: none;
+
+  .cancelbtn {
+     @include cancelbtn;
+    }
+  @include hover;
+
+  
 }
 
 form {
@@ -15,7 +31,7 @@ form {
   label {
     @include text_style(black, 100%);
     float: left;
-    margin-top: 20vh;
+    margin-top: 10%;
     margin-left: 5%;
     width: 100%;
   }
@@ -27,31 +43,30 @@ form {
   
   button {
     @include border(2px);
-    float: left;
     background-color: $button_color_2;
     color: white;
     padding: 14px 20px;
-    margin: 5% 30%;
+    margin: 5% 40%;
     font-size: 100%;
-    cursor: pointer;
-    width: 40%;
-    margin-top: 10vh;
+    width: 25%;
+   margin-top: 10%;
   }
   
   @include hover;
   
-  .cancelbtn {
-      @include cancelbtn;
-  }
-  
   .container {
+
+    @include border(3px);
     label{
       color: white;
     }
+    border-radius: 40px;
+    margin-left: 15%;
 
-    height: 100vh;
+    width: 70%;
+    height: 100%;
     padding: 20px; 
-    margin-top: 10vh; 
+    margin-top: 15vh; 
     padding: 16px;
   }
   

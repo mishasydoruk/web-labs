@@ -55,9 +55,6 @@ input[type=text] {
   color: black;
 }
 
-.context {
-  border-radius: 10px;
-}
 .context button {
   border: 1px solid #3f3838;
   margin-left: 3%;
@@ -74,6 +71,10 @@ input[type=text] {
 }
 
 .container {
+  border: 5px solid #3f3838;
+  border-radius: 20px;
+  width: 70%;
+  margin-left: 15%;
   padding: 20px;
   margin-top: 15vh;
   padding: 16px;

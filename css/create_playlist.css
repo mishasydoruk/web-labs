@@ -2,6 +2,34 @@ body {
   background: url(../images/tec.jpg) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.upper-block {
+  background: none;
+  height: 45px;
+  padding: 20px;
+  margin-bottom: -1px;
+  border: 6px solid #3f3838;
+  width: 100vw;
+  border: none;
+  margin-top: 10vh;
+  background: none;
+}
+.upper-block .cancelbtn {
+  color: white;
+  border-radius: 15%;
+  border: 2px solid #3f3838;
+  float: left;
+  margin: 0% 0%;
+  width: auto;
+  padding: 10px 18px;
+  background-color: #861f1f;
+}
+.upper-block button:hover {
+  color: #d2e430;
+  transform: scale(0.95);
 }
 
 form {
@@ -12,7 +40,7 @@ label {
   color: black;
   font-size: 100%;
   float: left;
-  margin-top: 20vh;
+  margin-top: 10%;
   margin-left: 5%;
   width: 100%;
 }
@@ -35,15 +63,13 @@ input[type=text], input[type=password] {
 
 button {
   border: 2px solid #3f3838;
-  float: left;
   background-color: #1c741c;
   color: white;
   padding: 14px 20px;
-  margin: 5% 30%;
+  margin: 5% 40%;
   font-size: 100%;
-  cursor: pointer;
-  width: 40%;
-  margin-top: 10vh;
+  width: 25%;
+  margin-top: 10%;
 }
 
 button:hover {
@@ -51,21 +77,14 @@ button:hover {
   transform: scale(0.95);
 }
 
-.cancelbtn {
-  color: white;
-  border-radius: 15%;
-  border: 2px solid #3f3838;
-  float: left;
-  margin: 0% 0%;
-  width: auto;
-  padding: 10px 18px;
-  background-color: #861f1f;
-}
-
 .container {
-  height: 100vh;
+  border: 3px solid #3f3838;
+  border-radius: 40px;
+  margin-left: 15%;
+  width: 70%;
+  height: 100%;
   padding: 20px;
-  margin-top: 10vh;
+  margin-top: 15vh;
   padding: 16px;
 }
 .container label {

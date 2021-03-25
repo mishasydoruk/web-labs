@@ -34,11 +34,14 @@ body {
   background-color: #381235;
   color: white;
   padding: 1% 1%;
-  margin-right: 4vw;
+  margin-right: 2vw;
   border: none;
-  width: 7vw;
+  padding: 5px, 5px;
+  border-radius: 15%;
+  width: 12vw;
   float: right;
   font-size: 70%;
+  padding: 2px, 2px;
   margin-right: 4vw;
 }
 
@@ -48,27 +51,25 @@ button:hover {
 }
 
 .container {
-  margin-top: 15vh;
+  margin-top: 20vh;
   border: 4px solid #3f3838;
-  height: 50vh;
+  height: auto;
   width: 70%;
   float: right;
   margin-right: 10vw;
+  border-radius: 20px;
 }
 .container button:hover {
   color: #d2e430;
   transform: scale(0.95);
 }
-.container div {
-  width: 70%;
-  float: right;
+.container h3 {
+  margin-left: 10%;
+  color: white;
+  margin-top: 1%;
 }
-.container .text {
-  float: left;
-  width: 100%;
+.container h4 {
   margin-left: 40%;
-  margin-top: 5vh;
-  font-size: 100%;
   color: white;
 }
 .container button {

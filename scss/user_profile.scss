@@ -22,32 +22,32 @@ body{
 
 .button-right {
     @include button-right($button-color-5);
+    padding: 2px, 2px;
     margin-right: 4vw;
 }
 @include hover;
 
 .container {
     @include hover;
-    margin-top: 15vh;
+    margin-top: 20vh;
     @include border(4px);
-    height: 50vh;
+    height: auto;
     width: 70%;
     float: right;
     margin-right: 10vw;
+    border-radius: 20px;
     
-
-    div {
-        width: 70%;
-        float: right;
-    }
-    .text {
-        float: left;
-        width: 100%;
-        margin-left: 40%;
-        margin-top: 5vh;
-        font-size: 100%;
+    h3{
+        margin-left: 10%;
         color: white;
-    };
+        margin-top: 1%;
+    }
+
+    h4{
+        margin-left: 40%;
+        color:white;
+    }
+
 
     button {
         color: white;

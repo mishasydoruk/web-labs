@@ -49,8 +49,7 @@ form {
     };
 
     .context{
-        border-radius: 10px;
-
+       
         button{
             @include border(1px);
             margin-left: 3%;
@@ -65,7 +64,10 @@ form {
     }
   
   .container {
-    
+    @include border(5px);
+    border-radius: 20px;
+    width: 70%;
+    margin-left:15%;
     padding: 20px; 
     margin-top: 15vh; 
     padding: 16px;

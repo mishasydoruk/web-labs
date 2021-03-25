@@ -2,21 +2,23 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>Login page</title>
+  <title>Create playlist</title>
   <link rel="stylesheet" href="css\create_playlist.css">
  </head>
  <body>
-    <div class="container">
-        
+
+    <div class="upper-block">
         <button type="button" onclick="history.back()" class="cancelbtn">Cancel</button>
+    </div>
+
+    <div class="container">
         
         <label for="playlist_name"><b>Name of playlist</b></label>
     </br>
         <input type="text" placeholder="Enter name of playlist" name="playlist_name" required>
-    </br>
     <label>
         <input type="checkbox" checked="checked" name="remember"> Public
-        </label>
+    </label>
         <button type="submit">Create</button>
     </div>
  </body>
