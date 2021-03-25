@@ -26,25 +26,27 @@
   font-size: 70%;
   width: 25vw;
   padding-top: 15%;
-  background-image: url(../images/violen-note.png);
+  background-image: url(../images/song-1.jpg);
   background-size: cover;
   margin-left: 1%;
   margin-top: 5%;
+  font-size: 100%;
   color:black;
   }
 
   @mixin playlist_button($width) {
-    @include border(3px);
+    @include border(4px);
         border-radius: 8px;
        
         font-size: 100%;
         width: $width;
         padding-top: $width;
-        background-image: url(../images/note.png);
+        background-image: url(../images/blue-note-1.jpg);
         background-size: cover;
         margin-left: 1%;
         margin-top: 5vh;
-        color: blue;
+        font-size: 100%;
+        color:black;
   }
 
 

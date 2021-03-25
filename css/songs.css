@@ -38,10 +38,11 @@ input {
   font-size: 70%;
   width: 25vw;
   padding-top: 15%;
-  background-image: url(../images/violen-note.png);
+  background-image: url(../images/song-1.jpg);
   background-size: cover;
   margin-left: 1%;
   margin-top: 5%;
+  font-size: 100%;
   color: black;
 }
 
