@@ -1,11 +1,29 @@
 @import "colors",  "mixins";
 
 $size: 600px;
+label{
+  color: white;
+}
+
+body{ 
+  background: url(../images/tec.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
   .context {
-    height: $size;
+    height: 40vh;
     width: 100%;
     background-color: $background_color_1;
+    margin-top: 14vh;
+  }
+
+  .container {
+
+    height: 100vh;
+    padding: 20px; 
+    margin-top: 3vh; 
+    padding: 16px;
   }
 
   input {
@@ -19,11 +37,16 @@ $size: 600px;
   }
 
   .song {
-   @include song(40px, 35px, 3%, 40%);
+   @include song;
   }
+
+  @include hover;
 
   .upper-block {
     @include upper_block;
+    border: none;
+    margin-top: 10vh;
+    background: none;
 
     .button{
       @include button_right($button_color_3);

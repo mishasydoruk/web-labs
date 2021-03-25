@@ -1,8 +1,18 @@
 @import "colors", "mixins";
 
+body{ 
+    background: url(../images/tec.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
 
 .upper-block {
+    margin-top: 4vh;
     @include upper-block;
+    border: none;
+    width: 100vw;
 };
 
 .cancelbtn {
@@ -11,19 +21,20 @@
 };
 
 .button-right {
-    @include button-right($button-color-3)
+    @include button-right($button-color-5);
+    margin-right: 4vw;
 }
 @include hover;
 
 .container {
     @include hover;
-    margin-top: 5%;
+    margin-top: 15vh;
     @include border(4px);
-    height: 400px;
+    height: 50vh;
     width: 70%;
     float: right;
-    background-color: $background-color-3;
-
+    margin-right: 10vw;
+    
 
     div {
         width: 70%;
@@ -33,8 +44,9 @@
         float: left;
         width: 100%;
         margin-left: 50%;
-        margin-bottom: 5%;
-        font-size: 30px;
+        margin-top: 5vh;
+        font-size: 150%;
+        color: white;
     };
 
     button {
@@ -50,7 +62,6 @@
         width: auto;
         margin-top: 10%;
         margin-bottom: 0%;
-        margin-right: 15%;
         font-size: 28px;
     };
 }

@@ -1,60 +1,85 @@
+body {
+  background: url(../images/tec.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 label {
   margin-top: 5%;
   margin-left: 5%;
+  color: white;
 }
 
 input[type=text], input[type=password] {
+  color: gray;
+  font-size: 70%;
   width: 70%;
   padding: 12px 20px;
   margin: 1% 0%;
   margin-left: 5%;
+  margin-bottom: 5%;
   display: inline-block;
-  border: 1px solid white;
+  border: 1px solid #ccc;
   box-sizing: border-box;
+  border: 2px solid #3f3838;
 }
 
 button {
-  background-color: #4ada4a;
+  border: 2px solid #3f3838;
+  background-color: #1c741c;
   color: white;
   padding: 14px 20px;
   margin: 5% 30%;
-  border: none;
   cursor: pointer;
   width: 40%;
 }
 
 .upper-block {
-  background: #c7dff5;
+  background: none;
   height: 45px;
   padding: 20px;
   margin-bottom: -1px;
-  border: 2px solid #3f3838;
-  margin-right: -3%;
+  border: 6px solid #3f3838;
+  width: 100vw;
+  margin-top: 10vh;
+  border: none;
+  background: none;
 }
 .upper-block .cancelbtn {
   color: white;
-  border-radius: 4px;
+  border-radius: 15%;
   border: 2px solid #3f3838;
   float: left;
   margin: 0% 0%;
   width: auto;
   padding: 10px 18px;
-  background-color: #e95d5d;
+  background-color: #861f1f;
 }
 
 button:hover {
-  color: black;
+  color: #d2e430;
   transform: scale(0.95);
 }
 
 .container {
-  height: auto;
-  background: #d4c599;
+  height: 100vh;
   padding: 20px;
-  margin-top: 5%;
+  margin-top: 25vh;
   padding: 16px;
+}
+.container label {
+  color: white;
 }
 
 .psw {
   margin-left: 40%;
+}
+.psw span {
+  color: white;
+}
+.psw a {
+  color: white;
+}
+.psw a:hover {
+  color: black;
 }

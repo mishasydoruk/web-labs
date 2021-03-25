@@ -1,10 +1,11 @@
 body {
-  background-color: #c7dff5;
+  background-color: #348829;
 }
 
 input {
   color: gray;
-  font-size: 20px;
+  font-size: 70%;
+  background: #bb7dbb;
   width: 70%;
   padding: 12px 20px;
   margin: 1% 0%;
@@ -20,7 +21,7 @@ h2 {
 }
 
 .part {
-  background-color: #ece7e7;
+  background-color: #bb7dbb;
   height: auto;
   width: 32%;
   border: 3px solid #3f3838;
@@ -29,19 +30,10 @@ h2 {
 
 .song {
   border: 2px solid #3f3838;
-  background-color: #c7dff5;
+  background-color: #348829;
   width: 70%;
   height: 70px;
   border-radius: 20px;
-}
-.song button {
-  border: 1px solid #3f3838;
-  background-color: blue;
-  border-radius: 50px;
-  width: 40px;
-  height: 40px;
-  margin-top: 4%;
-  margin-left: 1%;
 }
 .song .song-text {
   color: black;
@@ -52,17 +44,19 @@ h2 {
 .playlist-button {
   border: 3px solid #3f3838;
   border-radius: 8px;
-  height: 100px;
-  font-size: 20px;
+  font-size: 100%;
   width: 50%;
-  background-color: #bd98ba;
+  padding-top: 50%;
+  background-image: url(../images/note.png);
+  background-size: cover;
   margin-left: 1%;
-  color: white;
+  margin-top: 5%;
+  color: blue;
 }
 
 .user {
   border: 2px solid #3f3838;
-  background-color: #c7dff5;
+  background-color: #348829;
   font-size: 20px;
   color: black;
   height: 40px;
@@ -74,13 +68,13 @@ h2 {
 
 .cancelbtn {
   color: white;
-  border-radius: 4px;
+  border-radius: 15%;
   border: 2px solid #3f3838;
   float: left;
   margin: 0% 0%;
   width: auto;
   padding: 10px 18px;
-  background-color: #e95d5d;
+  background-color: #861f1f;
 }
 
 .text {
@@ -89,6 +83,6 @@ h2 {
 }
 
 button:hover {
-  color: black;
+  color: #d2e430;
   transform: scale(0.95);
 }

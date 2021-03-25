@@ -1,7 +1,25 @@
+label {
+  color: white;
+}
+
+body {
+  background: url(../images/tec.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .context {
-  height: 600px;
+  height: 40vh;
   width: 100%;
-  background-color: #c7dff5;
+  background-color: #348829;
+  margin-top: 14vh;
+}
+
+.container {
+  height: 100vh;
+  padding: 20px;
+  margin-top: 3vh;
+  padding: 16px;
 }
 
 input {
@@ -15,56 +33,55 @@ input {
 }
 
 .song {
-  border: 2px solid #3f3838;
-  background-color: #c7dff5;
-  width: 40%;
-  height: 70px;
-  border-radius: 20px;
-}
-.song button {
-  border: 1px solid #3f3838;
-  background-color: blue;
-  border-radius: 50px;
-  width: 40px;
-  height: 40px;
-  margin-top: 3%;
+  border: 3px solid #3f3838;
+  border-radius: 8px;
+  font-size: 70%;
+  width: 25vw;
+  padding-top: 15%;
+  background-image: url(../images/violen-note.png);
+  background-size: cover;
   margin-left: 1%;
-}
-.song .song-text {
+  margin-top: 5%;
   color: black;
-  font-size: 35px;
-  margin-left: 5%;
+}
+
+button:hover {
+  color: #d2e430;
+  transform: scale(0.95);
 }
 
 .upper-block {
-  background: #c7dff5;
+  background: none;
   height: 45px;
   padding: 20px;
   margin-bottom: -1px;
-  border: 2px solid #3f3838;
-  margin-right: -3%;
+  border: 6px solid #3f3838;
+  width: 100vw;
+  border: none;
+  margin-top: 10vh;
+  background: none;
 }
 .upper-block .button {
   background-color: #3d58cf;
   color: white;
   padding: 1% 1%;
-  margin-left: 2%;
+  margin-right: 4vw;
   border: none;
-  width: 10%;
+  width: 7vw;
   float: right;
-  font-size: 11pt;
+  font-size: 70%;
 }
 .upper-block .cancelbtn {
   color: white;
-  border-radius: 4px;
+  border-radius: 15%;
   border: 2px solid #3f3838;
   float: left;
   margin: 0% 0%;
   width: auto;
   padding: 10px 18px;
-  background-color: #e95d5d;
+  background-color: #861f1f;
 }
 .upper-block button:hover {
-  color: black;
+  color: #d2e430;
   transform: scale(0.95);
 }

@@ -1,97 +1,193 @@
-.site-name {
-  color: black;
-  font-size: 30px;
-  float: left;
-  margin-bottom: 0px;
-}
-
-.context {
-  height: 600px;
-  width: 100%;
-}
-.context .left-block {
-  background: #95d3ad;
-  height: 600px;
-  padding: 20px;
-  margin-bottom: -1px;
-  border-top: none;
-  float: left;
-  background-color: #95d3ad;
-  height: 100%;
-  width: 20%;
-}
-.context .left-block button:hover {
-  color: black;
-  transform: scale(0.95);
-}
-.context .left-block .panel-button {
-  border: 7px solid #3f3838;
-  background-color: #bd98ba;
-  float: left;
-  margin-bottom: 5%;
-  margin-right: 100%;
-  width: 100%;
-  height: 140px;
-  font-size: 40px;
-  color: white;
-  border-radius: 15px;
-}
-.context .left-block button:hover {
-  color: black;
-  transform: scale(0.95);
-}
-.context .right-block {
-  background: #ece7e7;
-  height: 600px;
-  padding: 20px;
-  margin-bottom: -1px;
-  background-color: #ece7e7;
-  width: 100%;
-}
-.context .right-block .playlist-button {
-  border: 3px solid #3f3838;
-  border-radius: 8px;
-  height: 100px;
-  font-size: 20px;
-  width: 15%;
-  background-color: #bd98ba;
-  margin-left: 1%;
-  color: white;
-}
-.context .right-block button:hover {
-  color: black;
-  transform: scale(0.95);
+body {
+  background: url(../images/tec.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 .upper-block {
-  background: #c7dff5;
+  background: none;
   height: 45px;
   padding: 20px;
   margin-bottom: -1px;
-  border: 2px solid #3f3838;
-  margin-right: -3%;
+  border: 6px solid #3f3838;
+  width: 100vw;
+  background: none;
+  margin-top: 4vh;
+  border: none;
+}
+.upper-block .login-button {
+  background-color: #1c741c;
+  color: white;
+  padding: 1% 1%;
+  margin-right: 4vw;
+  border: none;
+  width: 7vw;
+  float: right;
+  font-size: 70%;
 }
 .upper-block .button {
   background-color: #3d58cf;
   color: white;
   padding: 1% 1%;
-  margin-left: 2%;
+  margin-right: 4vw;
   border: none;
-  width: 10%;
+  width: 7vw;
   float: right;
-  font-size: 11pt;
+  font-size: 70%;
 }
-.upper-block .login-button {
-  background-color: #4ada4a;
-  color: white;
-  padding: 1% 1%;
-  margin-left: 2%;
+
+.context {
+  height: 100vh;
+  width: 100%;
+}
+.context .right-block {
+  background: none;
+  height: 100vh;
+  padding: 20px;
+  margin-bottom: -1px;
+  width: 100vw;
   border: none;
-  width: 10%;
-  float: right;
-  font-size: 11pt;
 }
-.upper-block button:hover {
-  color: black;
+.context .right-block .playlist-button {
+  border: 3px solid #3f3838;
+  border-radius: 8px;
+  font-size: 100%;
+  width: 15%;
+  padding-top: 15%;
+  background-image: url(../images/note.png);
+  background-size: cover;
+  margin-left: 1%;
+  margin-top: 5%;
+  color: blue;
+}
+.context .right-block button:hover {
+  color: #d2e430;
   transform: scale(0.95);
+}
+
+@media only screen and (min-width: 768px) {
+  .site-name {
+    color: black;
+    font-size: 70%;
+    float: left;
+    margin-bottom: 0px;
+  }
+
+  .context {
+    height: 600px;
+    width: 100%;
+  }
+  .context .left-block {
+    background: none;
+    height: 600px;
+    padding: 20px;
+    margin-bottom: -1px;
+    float: left;
+    height: 100vh;
+    width: 20%;
+  }
+  .context .left-block button:hover {
+    color: #d2e430;
+    transform: scale(0.95);
+  }
+  .context .left-block .panel-button {
+    border: 7px solid #3f3838;
+    border: 2px solid #3f3838;
+    background: none;
+    float: left;
+    margin-bottom: 5%;
+    margin-right: 100%;
+    width: 100%;
+    height: 20vh;
+    font-size: 100%;
+    color: white;
+    border-radius: 15px;
+  }
+  .context .left-block button:hover {
+    color: #d2e430;
+    transform: scale(0.95);
+  }
+}
+@media only screen and (max-device-width: 768px) {
+  .site-name {
+    color: black;
+    font-size: 70%;
+    float: left;
+    margin-bottom: 0px;
+  }
+
+  .context .left-block {
+    background: none;
+    height: 600px;
+    padding: 20px;
+    margin-bottom: -1px;
+    float: left;
+    height: 10vh;
+    width: 100vw;
+  }
+  .context .left-block button:hover {
+    color: #d2e430;
+    transform: scale(0.95);
+  }
+  .context .left-block .panel-button {
+    border: 7px solid #3f3838;
+    background: none;
+    border: 2px solid #3f3838;
+    float: left;
+    margin-bottom: 5%;
+    margin-right: 2vw;
+    margin-left: 1vw;
+    width: 22vw;
+    height: 10vh;
+    font-size: 100%;
+    color: white;
+    border-radius: 15px;
+  }
+  .context .left-block button:hover {
+    color: #d2e430;
+    transform: scale(0.95);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .site-name {
+    color: black;
+    font-size: 70%;
+    float: left;
+    margin-bottom: 0px;
+  }
+
+  .context .left-block {
+    background: #95d3ad;
+    height: 600px;
+    padding: 20px;
+    margin-bottom: -1px;
+    border: 3px solid #3f3838;
+    border-top: none;
+    float: left;
+    height: 10vh;
+    width: 100vw;
+  }
+  .context .left-block button:hover {
+    color: #d2e430;
+    transform: scale(0.95);
+  }
+  .context .left-block .panel-button {
+    border: 7px solid #3f3838;
+    border: 2px solid #3f3838;
+    background: none;
+    float: left;
+    margin-bottom: 5%;
+    margin-right: 2vw;
+    margin-left: 1vw;
+    width: 22vw;
+    height: 10vh;
+    font-size: 100%;
+    color: white;
+    border-radius: 15px;
+  }
+  .context .left-block button:hover {
+    color: #d2e430;
+    transform: scale(0.95);
+  }
 }

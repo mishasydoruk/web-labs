@@ -1,31 +1,37 @@
 @import "mixins", "colors";
 
+body{ 
+  background: url(../images/tec.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
   label {
     margin-top: 5%;
     margin-left: 5%;
+    color: white;
   }
   input[type=text], input[type=password] {
-    width: 70%;
-    padding: 12px 20px;
-    margin: 1% 0%;
-    margin-left: 5%;
-    display: inline-block;
-    border: 1px solid white;
-    box-sizing: border-box;
+    @include input;
+    @include border(2px);
   }
   
   button {
+    @include border(2px);
     background-color: $button_color_2;
     color: white;
     padding: 14px 20px;
     margin: 5% 30%;
-    border: none;
     cursor: pointer;
     width: 40%;
   }
 
   .upper-block {
     @include upper-block;
+    margin-top: 10vh;
+    border: none;
+    background: none;
+
     
     .cancelbtn {
         @include cancelbtn;
@@ -37,13 +43,24 @@
   @include hover;
   
   .container {
-    height: auto;
-    background: $background-color-4; 
+    height: 100vh;
     padding: 20px; 
-    margin-top: 5%; 
+    margin-top: 25vh; 
     padding: 16px;
+    label {
+      color: white;
+    }
   }
   
   .psw {
     margin-left: 40%;
+    span {
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    a:hover{
+      color: black;
+    }
   }

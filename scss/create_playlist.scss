@@ -1,26 +1,28 @@
 @import "mixins", "colors";
 
+
+
+body{ 
+  background: url(../images/tec.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 form {
     border: 3px solid #f1f1f1;
   }
   
   label {
-    @include text_style(black, 20px);
+    @include text_style(black, 100%);
     float: left;
-    margin-top: 5%;
+    margin-top: 20vh;
     margin-left: 5%;
     width: 100%;
   }
   input[type=text], input[type=password] {
-    @include text_style(gray, 20px);
-    width: 70%;
-    padding: 12px 20px;
-    margin: 1% 0%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+    @include text_style(gray, 70%);
+   @include input;
+   @include border(3px);
   }
   
   button {
@@ -30,9 +32,10 @@ form {
     color: white;
     padding: 14px 20px;
     margin: 5% 30%;
-    font-size: 30px;
+    font-size: 100%;
     cursor: pointer;
     width: 40%;
+    margin-top: 10vh;
   }
   
   @include hover;
@@ -42,10 +45,13 @@ form {
   }
   
   .container {
-    background: $background_color_1;
-    height: 700px;
+    label{
+      color: white;
+    }
+
+    height: 100vh;
     padding: 20px; 
-    margin-top: 2%; 
+    margin-top: 10vh; 
     padding: 16px;
   }
   
