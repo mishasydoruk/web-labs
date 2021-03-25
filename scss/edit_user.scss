@@ -8,6 +8,7 @@ form {
     background: url(../images/tec.jpg) no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
     height: 100%;
   }
   
@@ -80,6 +81,7 @@ form {
       height: 50px;
       border-radius: 20px;
       margin-top: 5vh;
+      margin-bottom: 2vh;
       color: white;
   };
    @include hover;

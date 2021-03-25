@@ -2,6 +2,8 @@ body {
   background: url(../images/tec.jpg) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
+  height: 100%;
 }
 
 form {
@@ -32,7 +34,7 @@ button {
   color: white;
   padding: 14px 20px;
   margin: 5% 30%;
-  margin-top: 10vh;
+  margin-top: 5%;
   cursor: pointer;
   width: 40%;
 }
@@ -66,9 +68,11 @@ button:hover {
 
 .container {
   padding: 20px;
-  margin-top: 25vh;
+  margin-top: 10vh;
+  margin-left: 5vw;
   padding: 16px;
-  height: 140vh;
+  height: auto;
+  flex-grow: 10;
 }
 .container label {
   color: white;
