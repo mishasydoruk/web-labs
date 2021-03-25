@@ -20,12 +20,13 @@ body {
 
 .cancelbtn {
   color: white;
-  border-radius: 15%;
+  font-size: 100%;
+  border-radius: 30px;
   border: 2px solid #3f3838;
   float: left;
   margin: 0% 0%;
-  width: auto;
-  padding: 10px 18px;
+  width: 15vw;
+  padding: 20px 18px;
   background-color: #861f1f;
 }
 

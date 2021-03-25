@@ -20,12 +20,13 @@ body {
 
 .cancelbtn {
   color: white;
-  border-radius: 15%;
+  font-size: 100%;
+  border-radius: 30px;
   border: 2px solid #3f3838;
   float: left;
   margin: 0% 0%;
-  width: auto;
-  padding: 10px 18px;
+  width: 15vw;
+  padding: 20px 18px;
   background-color: #861f1f;
   margin-left: 1%;
 }
@@ -33,14 +34,14 @@ body {
 .button-right {
   background-color: #381235;
   color: white;
-  padding: 1% 1%;
+  padding: 20px 18px;
   margin-right: 2vw;
   border: none;
   padding: 5px, 5px;
-  border-radius: 15%;
-  width: 12vw;
+  border-radius: 30px;
+  width: 15vw;
   float: right;
-  font-size: 70%;
+  font-size: 130%;
   padding: 2px, 2px;
   margin-right: 4vw;
 }
