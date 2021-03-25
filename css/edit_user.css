@@ -77,7 +77,7 @@ input[type=text] {
   padding: 20px;
   margin-top: 15vh;
   padding: 16px;
-  height: 120vh;
+  height: auto;
 }
 
 .save-changes-button {
