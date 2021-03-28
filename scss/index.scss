@@ -6,7 +6,8 @@ body{
   background: url(../images/tec.jpg) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
 }
  
 .upper-block {
@@ -29,7 +30,7 @@ body{
 
 
   .right-block {
-    @include block(none, 100vh);
+    @include block(none, 100%);
     width: 100vw;
     border: none;
     

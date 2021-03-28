@@ -2,7 +2,8 @@ body {
   background: url(../images/tec.jpg) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
 }
 
 .upper-block {
@@ -51,7 +52,7 @@ body {
 }
 .context .right-block {
   background: none;
-  height: 100vh;
+  height: 100%;
   padding: 20px;
   margin-bottom: -1px;
   width: 100vw;
