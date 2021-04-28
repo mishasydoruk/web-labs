@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\scss"
+    "\\css",
+    "\\scripts"
   ],
-  "SelectedNode": "\\scss\\create_user.scss",
+  "SelectedNode": "\\edit_user.html",
   "PreviewInSolutionExplorer": false
 }

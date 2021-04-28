@@ -1,11 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
- <head>
-  <meta charset="utf-8">
-  <title>Edit user</title>
-  <link rel="stylesheet" href="css\edit_user.css">
- </head>
- <body>
+<head>
+    <meta charset="utf-8">
+    <title>Edit user</title>
+    <link rel="stylesheet" href="css\edit_user.css">
+    <script src="scripts/create_user.js"></script>
+</head>
+ <body onload="edit_onload()">
     <div class="upper-block">
         <button type="button" onclick="history.back()" class="cancelbtn">Cancel</button>
     </div>
@@ -14,37 +15,33 @@
 
         <div class="context">
             <h2>Email:</h2>
-            <label>email@gmail.com</label>
-            <button>Change</button>
-        </br>
-            <input type="text" placeholder="Enter new email" required>
+            <label></label>
+        <br>
+            <input type="text" placeholder="Enter new email" id="email">
         </div>
 
         <div class="context">
             <h2>First name:</h2>
-            <label>email@gmail.com</label>
-            <button>Change</button>
-        </br>
-            <input type="text" placeholder="Enter new first name" required>
+            <label></label>
+        <br>
+            <input type="text" placeholder="Enter new first name" id="first_name">
         </div>
 
         <div class="context">
             <h2>Last name:</h2>
-            <label>Last name</label>
-            <button>Change</button>
-        </br>
-            <input type="text" placeholder="Enter new last name" required>
+            <label></label>
+        <br>
+            <input type="text" placeholder="Enter new last name" id="last_name">
         </div>
 
         <div class="context">
             <h2>username:</h2>
-            <label>username</label>
-            <button>Change</button>
-        </br>
-            <input type="text" placeholder="Enter new username" required>
+            <label></label>
+        <br>
+            <input type="text" placeholder="Enter new username" id ="username">
         </div>
         
-    <button type="submit" class="save-changes-button">Save changes</button>
+    <button  onclick="edit_user()" class="save-changes-button">Save changes</button>
     </div>
  </body>
 </html>
