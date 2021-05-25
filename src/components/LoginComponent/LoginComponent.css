@@ -1,0 +1,33 @@
+.login-block {
+  margin-left: 20vw;
+  margin-right: -20px;
+  margin-top: 20vh;
+  width: 60vw;
+  height: auto;
+  background-color: azure;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+input {
+  margin-left: 5%;
+  margin-right: %;
+  width: 70%;
+  height: 4vh;
+  margin-top: 3%;
+}
+
+.login-button {
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 25%;
+  min-width: 20vw;
+  height: 5vw;
+  min-height: 4vh;
+  max-height: 50px;
+  border-radius: 15px;
+  background-color: greenyellow;
+  font-size: 100%;
+}

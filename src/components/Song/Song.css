@@ -1,0 +1,32 @@
+.pl-btn:hover {
+  color: white;
+}
+
+.pla {
+  height: 100px;
+  width: 50vw;
+  background-color: paleturquoise;
+  border-radius: 20px;
+  margin-top: 2%;
+}
+
+.l {
+  margin-top: 25px;
+  margin-left: 25px;
+  font-size: 150%;
+  display: inline-block;
+}
+
+.jn-btn {
+  margin-top: 25px;
+  margin-right: 50px;
+  border-radius: 15px;
+  float: right;
+  background-color: greenyellow;
+  height: 50px;
+  width: 100px;
+}
+
+.jn-btn:hover {
+  color: white;
+}

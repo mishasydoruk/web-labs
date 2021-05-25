@@ -1,0 +1,28 @@
+.pr-block {
+  margin-left: 20vw;
+  margin-right: 0;
+  margin-top: 20vh;
+  width: 60vw;
+  height: auto;
+  background-color: azure;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.lbl1 {
+  margin-left: 5%;
+  display: inline-block;
+  margin-top: 3%;
+  margin-right: 100%;
+}
+
+.btns {
+  margin-left: 15%;
+  background-color: bisque;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 7vw;
+  height: 3vw;
+  min-height: 4vh;
+  max-height: 50px;
+}

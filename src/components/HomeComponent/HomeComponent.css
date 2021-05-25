@@ -1,0 +1,9 @@
+.cont {
+  background-color: azure;
+  height: 10wh;
+  min-height: 10vw;
+  width: 100vw;
+  border: 2px solid black;
+  margin-top: 3vh;
+  text-align: center;
+}

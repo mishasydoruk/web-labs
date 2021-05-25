@@ -1,0 +1,34 @@
+.pl-btn {
+  height: 100px;
+  margin-left: 10%;
+  width: 250px;
+  background: none;
+  border: none;
+  font-size: 200%;
+}
+
+.pl-btn:hover {
+  color: white;
+}
+
+.pl {
+  height: auto;
+  width: 50vw;
+  background-color: paleturquoise;
+  border-radius: 20px;
+  margin-top: 2%;
+}
+
+.jn-btn {
+  margin-top: 25px;
+  margin-right: 50px;
+  border-radius: 15px;
+  float: right;
+  background-color: greenyellow;
+  height: 50px;
+  width: 100px;
+}
+
+.jn-btn:hover {
+  color: white;
+}
