@@ -124,7 +124,6 @@ export default class ContentMenu extends React.Component
     {
         return (
         <div className="cont-menu">
-            
             {window.localStorage.getItem('jwt') == null ? (
             <div>
                 <button className="butn" onClick={this.getGlobalPlaylist}>Global playlists</button>

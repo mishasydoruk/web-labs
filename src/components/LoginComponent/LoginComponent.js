@@ -41,20 +41,15 @@ export default class LoginComponent extends React.Component {
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4) {
             if (xhr.status == 401) {
-                //document.getElementById("password").value = "";
-                //document.getElementById("password").placeholder = "Wrong password!";
-                
+               
             }
 
             if (xhr.status == 404) {
-                console.log("hui");
-
             }
 
             if (xhr.status >= 400 && xhr.status < 500 && xhr.status != 401 && xhr.status != 404)
-                //console.log("zalupa");
+                
             if (xhr.status >= 500) {
-                //location.href = "error.html?message=500"
             }
             if (xhr.status >= 200 && xhr.status < 300)
             { 

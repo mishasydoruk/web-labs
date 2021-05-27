@@ -59,7 +59,7 @@ export default class UpperMenu extends React.Component
             
             </div>
         )
-    : ( <div>
+    :( <div>
         <label className="lbl">OnlyMusicFans</label>
         <button className="butt" onClick={this.profileClick}>Profile</button>
        <button className="butt" onClick={() => {window.localStorage.setItem('component', "Upload"); window.location =  window.location.href}}>Upload songs</button>
@@ -69,7 +69,7 @@ export default class UpperMenu extends React.Component
         
        
         </div>
-    )
+    ) 
     }
             
               

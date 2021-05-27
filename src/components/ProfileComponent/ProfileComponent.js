@@ -9,8 +9,8 @@ export default class ProfileComponent extends React.Component
         
         this.state =
             {
-            username: window.localStorage.getItem('username'),
-            email: window.localStorage.getItem('email'),
+            username: props.username == null ? window.localStorage.getItem('username') : props.username,
+            email: props.email == null ? window.localStorage.getItem('email') : props.email,
         }
         
         this.logout = this.logout.bind(this);
@@ -39,8 +39,7 @@ export default class ProfileComponent extends React.Component
         {
             username: e.target.value
         }
-        )
-        
+        )    
     }
     
     emailChange(e)
@@ -49,8 +48,7 @@ export default class ProfileComponent extends React.Component
         {
             email: e.target.value
         }
-        )
-        
+        ) 
     }
     
     deleteUser()
@@ -129,9 +127,9 @@ updateUser()
     {
         return(
         <div className="pr-block">
-            <label className="lbl1">Username: {window.localStorage.getItem('username')}</label>
-            <input type="text" defaultValue = {this.state.username} onChange={this.usernameChange} placeholder="Enter new username"/>
-            <label className="lbl1">Email: {window.localStorage.getItem('email')}</label>
+            <label data-testid="usn" className="lbl1">Username: {this.props.usn} {window.localStorage.getItem('username')}</label>
+            <input data-testid="usrin" type="text" defaultValue = {this.state.username} onChange={this.usernameChange} placeholder="Enter new username"/>
+            <label data-testid="eml" className="lbl1">Email: {this.props.eml} {window.localStorage.getItem('email')}</label>
             <input type="text" defaultValue = {this.state.email} onChange={this.emailChange} placeholder="Enter new email"/>
             <button onClick={this.updateUser} className="btns">Update</button>
             <button className="btns" onClick={this.logout}>Logout</button>
